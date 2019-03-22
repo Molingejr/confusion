@@ -32,7 +32,7 @@ class Header extends Component {
     }
 
     handleLogin(event){
-        console.log("Hanlde Login");
+        console.log("Handle Login");
         this.toggleModal();
         alert("Username: " + this.username.value + "Password: " + this.password.value + " Remember: " + this.remember.checked);
         event.preventDefault();
